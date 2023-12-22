@@ -1,0 +1,13 @@
+.menu-container {
+    background-color: white;
+    height: 100%;
+    width: 300px;
+    overflow-y: auto;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-hidden {
+    transform: translateX(-100%);
+  }
+  
